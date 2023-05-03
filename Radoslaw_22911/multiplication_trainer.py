@@ -2,10 +2,6 @@ from random import randint
 import os
 import time
 
-'''
-Program służący do trenowania działań mnożenia. Program losowo wybiera dwie liczby i prosi użytkowanika o podanie wyniku pomnożenia ich przez siebie.
-'''
-
 os.system('cls')
 
 print("Program do trenowania mnożenia. Wpisz 'q', aby zakończyć.")
