@@ -28,7 +28,7 @@ while W_GRZE:
             print('\t\t(*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^)\n\t\t\t=== Brawo! ===\n\t\t*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^\n\n')
 
             decyzja = input('Chcesz zagrać jeszcze raz? (T/N) ')
-            if decyzja is str:
+            if decyzja in ['T', 't']:
                 try:
                     continue
                 except TypeError:
