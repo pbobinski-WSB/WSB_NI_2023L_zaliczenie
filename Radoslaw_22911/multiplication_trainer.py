@@ -8,6 +8,8 @@ Program służący do trenowania działań mnożenia. Program losowo wybiera dwi
 
 os.system('cls')
 
+print("Program do trenowania mnożenia. Wpisz 'q', aby zakończyć.")
+
 first = [value_first for value_first in range(0,10)]
 second = [value_second for value_second in range(0,10)]
 
