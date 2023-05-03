@@ -2,6 +2,10 @@ from random import randint
 import os
 import time
 
+'''
+Program służący do trenowania działań mnożenia. Program losowo wybiera dwie liczby i prosi użytkowanika o podanie wyniku pomnożenia ich przez siebie.
+'''
+
 os.system('cls')
 
 first = [value_first for value_first in range(0,10)]
