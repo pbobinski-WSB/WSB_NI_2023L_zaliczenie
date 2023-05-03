@@ -2,7 +2,10 @@ import os
 
 os.system('cls')
 
-filename = "Romeo_and_Juliet.txt"
+absolute_path = os.path.dirname(__file__)
+relative_path = "Romeo_and_Juliet.txt"
+
+filename = os.path.join(absolute_path, relative_path)
 
 try:
     with open(filename, encoding='utf-8') as f:
@@ -15,4 +18,4 @@ else:
     words = contents.split()
     num_words = len(words)
     print(words)
-    print(f"Plik {filename} zawiera {num_words} słów.")
+    print(f"\n\tPlik {filename} zawiera {num_words} słów.")
