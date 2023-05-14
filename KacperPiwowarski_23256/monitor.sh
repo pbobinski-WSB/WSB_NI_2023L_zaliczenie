@@ -18,7 +18,7 @@ else
 
     if [[ $status_code -eq 200 ]]; then
         echo "Strona HTML istnieje"
-    elif [[ $status_code -eq 404 ]] || [[ $status_code -eq 403 ]]; then
+    elif [[ $status_code -eq 404 ]]; then
         echo "Strona HTML nie istnieje"
     else
         echo "Nieznany kod odpowiedzi HTTP: $status_code"
