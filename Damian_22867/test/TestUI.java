@@ -59,7 +59,7 @@ public class TestUI {
                 "Wybierz co chcesz zobaczyć:\n" +
                 " 1. Suma \n" +
                 " 2. Średnia \n" +
-                " 3. Wyjście\n";
+                " 3. Wyjście\n" ;
 
         String normalizedExpected = expectedOutput.replaceAll("\\r\\n|\\r", "\n");
         String normalizedActual = testOut.toString().replaceAll("\\r\\n|\\r", "\n");
