@@ -1,4 +1,4 @@
-    /**
+/**
  * Klasa zawierająca metodę main do uruchomienia aplikacji.
  */
 public class Uruchomienie {
