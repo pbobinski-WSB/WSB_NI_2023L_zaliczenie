@@ -11,7 +11,7 @@ public class Srednia {
      * @param liczba2 Druga liczba.
      * @return Średnia dwóch liczb.
      */
-    public double średnia(double liczba1, double liczba2) {
+    public double srednia(double liczba1, double liczba2) {
         return dodawanie.dodaj(liczba1, liczba2) / 2;
     }
 }

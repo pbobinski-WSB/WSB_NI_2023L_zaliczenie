@@ -15,14 +15,14 @@ public class UI {
     public static void main() {
         Scanner scan = new Scanner(System.in);
         Dodawanie dodawanie = new Dodawanie();
-        Srednia liczenieŚredniej = new Srednia();
+        Srednia liczenieSredniej = new Srednia();
 
         System.out.println("Podaj dwie liczby zatwierdzając enterem: ");
         double liczba1 = scan.nextDouble();
         double liczba2 = scan.nextDouble();
 
         double wynikDodawania = dodawanie.dodaj(liczba1, liczba2);
-        double wynikŚrednia = liczenieŚredniej.średnia(liczba1, liczba2);
+        double wynikSrednia = liczenieSredniej.srednia(liczba1, liczba2);
         while (true) {
             System.out.println(System.lineSeparator().repeat(50));
             System.out.println("Wybierz co chcesz zobaczyć:\n 1. Suma \n 2. Średnia \n 3. Wyjście");
@@ -32,7 +32,7 @@ public class UI {
                 scan.next();
 
             } else if (on == 2) {
-                System.out.println(wynikŚrednia + "\n Wybierz dowolny przycisk i zatwierdź, aby kontynuować");
+                System.out.println(wynikSrednia + "\n Wybierz dowolny przycisk i zatwierdź, aby kontynuować");
                 scan.next();
 
             } else if (on == 3) {
