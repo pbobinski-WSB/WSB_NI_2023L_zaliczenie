@@ -52,3 +52,6 @@ while i < number_of_cards:
         print("Prosze wpisac wylacznie cyfry!")
         
 
+print("Dziekuje, program zakonczyl prace")
+
+print("just for commit test")
