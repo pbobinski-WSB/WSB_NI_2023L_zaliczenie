@@ -52,10 +52,3 @@ while i < number_of_cards:
         print("Prosze wpisac wylacznie cyfry!")
         
 
-print("Dziekuje, program zakonczyl prace")
-
-print("just for commit test")
-
-print("just for commit test 2")
-
-print("just for commit test 3")
