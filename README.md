@@ -1,1 +1,1 @@
-Damian, 22867, c7
+Proszę tu nic nie pisać, tylko w swoim katalogu !!!
