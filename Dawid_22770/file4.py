@@ -1,1 +1,1 @@
-print("no wciaz, nie mam za bardzo")
+print("no wciaz, nie mam za bardzo kreatywnych pomyslow")
