@@ -1,0 +1,1 @@
+print("no wciaz, nie mam za bardzo")
