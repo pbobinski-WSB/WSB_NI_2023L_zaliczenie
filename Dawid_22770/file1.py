@@ -1,1 +1,1 @@
-print("siemka")
+print("czesc")
