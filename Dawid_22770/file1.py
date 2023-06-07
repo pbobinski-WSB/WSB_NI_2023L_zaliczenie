@@ -1,1 +1,1 @@
-print("czesc")
+print("hej")
