@@ -1,1 +1,1 @@
-print("przyznaje")
+print("przyznaje, ze")
