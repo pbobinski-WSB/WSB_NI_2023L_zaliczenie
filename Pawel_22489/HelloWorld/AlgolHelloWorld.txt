@@ -1,0 +1,3 @@
+BEGIN
+ WRITEF("Hello, World!");
+END.
