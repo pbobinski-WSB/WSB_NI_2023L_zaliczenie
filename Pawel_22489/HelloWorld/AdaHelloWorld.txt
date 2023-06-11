@@ -1,0 +1,7 @@
+WITH Ada.Text_IO;
+USE Ada.Text_IO;
+
+PROCEDURE Hello_World IS
+BEGIN
+  Put_Line("Hello, World!");
+END Hello_World;
