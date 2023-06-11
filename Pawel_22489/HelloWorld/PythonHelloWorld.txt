@@ -1,0 +1,2 @@
+print("Hello, World!")
+input("Naciśnij Enter, aby zakończyć...")
