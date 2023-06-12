@@ -9,7 +9,3 @@ sum_of_numbers = sum(numbers)
 
 print("Suma liczb to:")
 print(sum_of_numbers)
-
-sorted_numbers = sorted(numbers)
-
-print("Posortowane liczby to: \n",sorted_numbers)
