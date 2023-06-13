@@ -7,10 +7,16 @@ import org.ksiazki.ListaKsiazek;
 
 import java.util.List;
 
+/**
+ * Klasa wypisująca książki
+ */
 public class WypisywanieKsiazek {
 
     private static final Logger logger = LogManager.getLogger(WypisywanieKsiazek.class);
 
+    /**
+     * Metoda służąca do wypisywania książek
+     */
     public static void wypiszKsiazki(){
         List<Ksiazka> listaKsiazek = ListaKsiazek.utworzListeKsiazek();
 

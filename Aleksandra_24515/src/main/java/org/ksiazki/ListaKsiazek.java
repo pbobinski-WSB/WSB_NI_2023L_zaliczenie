@@ -3,7 +3,14 @@ package org.ksiazki;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Klasa tworząca listę książek
+ */
 public class ListaKsiazek {
+    /**
+     * Metoda która tworzy listę książek
+     * @return lista książek
+     */
     public static List<Ksiazka> utworzListeKsiazek(){
         List<Ksiazka> lista = new ArrayList<>();
 
