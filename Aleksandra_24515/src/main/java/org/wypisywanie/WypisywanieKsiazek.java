@@ -1,5 +1,7 @@
 package org.wypisywanie;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.ksiazki.Ksiazka;
 import org.ksiazki.ListaKsiazek;
 
@@ -7,14 +9,16 @@ import java.util.List;
 
 public class WypisywanieKsiazek {
 
+    private static final Logger logger = LogManager.getLogger(WypisywanieKsiazek.class);
+
     public static void wypiszKsiazki(){
         List<Ksiazka> listaKsiazek = ListaKsiazek.utworzListeKsiazek();
 
         for (Ksiazka ksiazka : listaKsiazek){
-            System.out.println("Dane książki:");
-            System.out.println("Tytuł: " + ksiazka.tytul);
-            System.out.println("Autor: " + ksiazka.autor);
-            System.out.println("Gatunek: " + ksiazka.gatunek);
+            logger.info("Dane książki:");
+            logger.info("Tytuł: " + ksiazka.tytul);
+            logger.info("Autor: " + ksiazka.autor);
+            logger.info("Gatunek: " + ksiazka.gatunek);
         }
     }
 }
