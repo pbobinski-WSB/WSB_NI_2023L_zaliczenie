@@ -5,3 +5,5 @@ def odwróć_łańcuch(łańcuch):
 napis = "Hello, World!"
 wynik = odwróć_łańcuch(napis)
 print("Odwrócony napis:", wynik)
+
+print("hallelujah for Jesus!")
