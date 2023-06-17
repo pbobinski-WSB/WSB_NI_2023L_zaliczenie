@@ -1,1 +1,2 @@
 Pierwszy plik z branch PiotrK_branch_1
+Dodanie paru zdan do pliku
