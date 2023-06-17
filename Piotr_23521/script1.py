@@ -1,3 +1,6 @@
 print("Enter your name: ")
 n = input()
 print("Hello " + n)
+print("Enter your surname: ")
+m = input()
+print("Hello " + n + " " + m)
