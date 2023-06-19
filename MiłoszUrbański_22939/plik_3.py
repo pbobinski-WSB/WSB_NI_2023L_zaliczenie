@@ -1,4 +1,4 @@
-def powitanie(imie, wiek):
+def powitanie(imie):
     print("Witaj, " + imie + "! Masz " + str(wiek) + " lat.")
 
-powitanie("Jan", 25)
+powitanie("Jan")
