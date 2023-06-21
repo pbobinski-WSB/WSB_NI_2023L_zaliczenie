@@ -1,1 +1,1 @@
-System.WriteLine("Hello\nWold");
+System.WriteLine("Hello\nWorld");
