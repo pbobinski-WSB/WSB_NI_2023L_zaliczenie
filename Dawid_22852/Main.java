@@ -1,8 +1,8 @@
 package com.myapp;
 
-import com.myapp.model.Product;
-import com.myapp.model.ShoppingCart;
-import com.myapp.service.ShopService;
+import com.myapp.model.Product;    //import klasy product
+import com.myapp.model.ShoppingCart; //import klasy ShoppingCart
+import com.myapp.service.ShopService; //import klasy ShopService
 
 public class Main {
     public static void main(String[] args) {
