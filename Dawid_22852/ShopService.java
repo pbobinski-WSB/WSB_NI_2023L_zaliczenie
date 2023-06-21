@@ -3,27 +3,45 @@ package com.myapp.service;
 import com.myapp.model.Product;
 import com.myapp.model.ShoppingCart;
 
+/**
+ * Klasa ShopService dostarcza operacje związane z obsługą sklepu, takie jak dodawanie produktów do koszyka,
+ * usuwanie produktów z koszyka oraz obliczanie całkowitej ceny zamówienia.
+ */
 public class ShopService {
-    // Metoda dodająca produkt do koszyka
+
+    /**
+     * Dodaje produkt do koszyka zakupowego.
+     *
+     * @param cart    koszyk zakupowy, do którego ma zostać dodany produkt
+     * @param product produkt, który ma zostać dodany do koszyka
+     */
     public void addToCart(ShoppingCart cart, Product product) {
         cart.addProduct(product);
     }
 
-    // Metoda usuwająca produkt z koszyka
+    /**
+     * Usuwa produkt z koszyka zakupowego.
+     *
+     * @param cart    koszyk zakupowy, z którego ma zostać usunięty produkt
+     * @param product produkt, który ma zostać usunięty z koszyka
+     */
     public void removeFromCart(ShoppingCart cart, Product product) {
         cart.removeProduct(product);
     }
 
-    // Metoda obliczająca całkowitą wartość koszyka
+    /**
+     * Oblicza całkowitą cenę zamówienia na podstawie produktów znajdujących się w koszyku zakupowym.
+     *
+     * @param cart koszyk zakupowy, dla którego ma zostać obliczona cena
+     * @return całkowita cena zamówienia
+     */
     public double calculateTotalPrice(ShoppingCart cart) {
         double totalPrice = 0.0;
-        
-        // Iteracja przez wszystkie produkty w koszyku
+
         for (Product product : cart.getProducts()) {
-            // Dodawanie ceny produktu do całkowitej wartości koszyka
             totalPrice += product.getPrice();
         }
-        
+
         return totalPrice;
     }
 }
