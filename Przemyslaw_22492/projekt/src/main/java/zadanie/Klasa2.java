@@ -1,4 +1,15 @@
 package zadanie;
 
-public class Klasa2 {
+import org.example.Klasa3;
+
+/**
+ * Klasa zwraca String o nazwie "Testy"
+ */
+public class Klasa2  {
+    public String text() {
+
+
+        return "Testy";
+    }
+
 }
