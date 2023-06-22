@@ -1,0 +1,1 @@
+print("przyznaje, ze nie mam pomyslu na kreatywne commit'y do tych plikow")
