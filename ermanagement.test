@@ -1,0 +1,99 @@
+*   [33mfd0235c[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;32mPawel22489[m[33m)[m Merge branch 'ProjektCwiczeniaDoWyboru' into Pawel22489
+[31m|[m[32m\[m  
+[31m|[m * [33mb44965e[m[33m ([m[1;32mProjektCwiczeniaDoWyboru[m[33m)[m Projekt cwiczenia do wyboru
+* [32m|[m [33m1631787[m Dodanie nowych plikow
+* [32m|[m [33m508c362[m[33m ([m[1;32mHelloWorld[m[33m)[m Dodanie reszty plikow HelloWorld
+* [32m|[m [33m3ccb164[m Dodanie PythonHelloWorld
+* [32m|[m [33m1de4b23[m Dodanie JavaHelloWorld
+* [32m|[m [33m6c39434[m Dodanie C++HelloWorld
+* [32m|[m [33m8af1960[m Dodanie BasicHelloWorld
+* [32m|[m [33m716c6f7[m Dodanie AlgolHelloWorld
+* [32m|[m [33m686d287[m Dodanie AdaHelloWorld
+[32m|[m[32m/[m  
+* [33m7cca43d[m Gitignore i plik ktory bedzie ignorowany
+* [33md97c761[m Revert "Powrot do starego wierszyka"
+* [33m51af2ae[m Zmiana wierszyka na inny
+* [33m7ef0ee4[m Dodanie pieknego wierszyka
+*   [33m895aee6[m Merge branch 'ProjektStudia' into Pawel22489
+[33m|[m[34m\[m  
+[33m|[m * [33m532e129[m[33m ([m[1;32mProjektStudia[m[33m)[m Nowa klasa Truck
+[33m|[m * [33m3299285[m Nowa klasa Motorbike
+[33m|[m * [33m0396575[m Nowa klasa car
+[33m|[m * [33mfce2a18[m Nowa klasa Vehicle
+[33m|[m * [33m7d9ddc5[m Nowy projekt Vehicle
+[33m|[m * [33m4de3c05[m Projekt Grave.java
+* [34m|[m [33m7a8b8a7[m Skrypt Wolfhead.bat
+* [34m|[m [33m4a3756d[m Skrypt Matrix.bat
+* [34m|[m [33m0066a68[m Skrypt Dragon.bat
+* [34m|[m [33m0ca29b4[m Skrypt AuthorInfo
+[34m|[m[34m/[m  
+* [33m0f640db[m Added README.md file
+* [33m6e736e0[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m Update README.md
+* [33m6c57dc8[m Update README.md
+*   [33m03d33e8[m Merge branch 'kamil-cs50-Kamil_24125'
+[35m|[m[36m\[m  
+[35m|[m * [33m11844c2[m Merge branch 'Kamil_24125' of https://github.com/kamil-cs50/WSB_NI_2023L_zaliczenie into kamil-cs50-Kamil_24125
+[35m|[m[35m/[m[1;32m|[m 
+[35m|[m * [33m5c45571[m Adding missing files to the repository
+[35m|[m *   [33m72efb52[m Merge branch 'new_branch_2' into Kamil_24125
+[35m|[m [1;33m|[m[1;34m\[m  
+[35m|[m [1;33m|[m * [33m0f89cde[m Połączenie commitów w jeden. Operacja Rebase.
+[35m|[m * [1;34m|[m [33m410e3e8[m adding third new file
+[35m|[m * [1;34m|[m [33mfb00f19[m adding second new file
+[35m|[m * [1;34m|[m [33m2bdda45[m adding new file
+[35m|[m [1;34m|[m[1;34m/[m  
+[35m|[m * [33m6af982d[m Revert "Deleting all prints at the end of the file"
+[35m|[m * [33m3fff062[m Deleting all prints at the end of the file
+[35m|[m * [33mfce7afa[m Revert "deleting a last print"
+[35m|[m * [33mc004edf[m deleting a last print
+[35m|[m * [33m9da7dcf[m adding 4th print at the end of the file
+[35m|[m * [33m24e1d55[m adding 3rd print at the end of the file
+[35m|[m * [33m05668b1[m added second print at the end of the file
+[35m|[m * [33m88a71ae[m adding print at the end of the file
+[35m|[m * [33m5b59d58[m Program badający czy liczba jest polidromem
+[35m|[m * [33m450817b[m read me file
+[35m|[m * [33m94dd551[m 1st push
+* [1;34m|[m   [33m4e3f1e6[m Merge pull request #4 from WSBDamian/DB22867
+[1;35m|[m[1;36m\[m [1;34m\[m  
+[1;35m|[m * [1;34m|[m [33m1f0ba32[m Zmiany w pliku DB-2.txt
+[1;35m|[m * [1;34m|[m [33mf096402[m Zmiany w pliku DB-2.txt
+[1;35m|[m * [1;34m|[m [33md6c3042[m Dodanie pliku DB-2.txt
+[1;35m|[m * [1;34m|[m [33mfde751b[m Zmiany w pliku DB-1.txt
+[1;35m|[m * [1;34m|[m [33m46f1641[m Zmiany w pliku DB-1.txt
+[1;35m|[m * [1;34m|[m [33mb77457c[m Dodanie pliku DB-1.txt
+[1;35m|[m * [1;34m|[m [33m0b0bcae[m dodanie .gitignore i plik, ktory ma byc ignorowany
+[1;35m|[m * [1;34m|[m [33m07b1c76[m Revert "Commit do wycofania"
+[1;35m|[m * [1;34m|[m [33m5a31d07[m Commit do wycofania
+[1;35m|[m * [1;34m|[m [33m555037e[m Poprawka polskich liter
+[1;35m|[m * [1;34m|[m [33m626f39a[m Poprawka dokumentacji
+[1;35m|[m * [1;34m|[m [33m0ed363e[m Dodanie katalogu Damian_22767 oraz dodanie w nim aplikacji
+[1;35m|[m [1;34m|[m[1;34m/[m  
+* [1;34m|[m   [33m277013d[m Merge pull request #2 from R4dekC/Python
+[31m|[m[32m\[m [1;34m\[m  
+[31m|[m * [1;34m|[m [33m7a338f4[m Update .gitignore
+[31m|[m * [1;34m|[m   [33m4e9ee3f[m Merge branch 'Testy' into Python
+[31m|[m [33m|[m[34m\[m [1;34m\[m  
+[31m|[m [33m|[m * [1;34m|[m [33mde4671b[m Dodano obsługę relatywnych ścieżek do plików.
+[31m|[m [33m|[m * [1;34m|[m [33m2834683[m Dodano programu obliczające ilość słów w plikach tekstowych oraz pliki tekstowe kilku książek.
+[31m|[m * [34m|[m [1;34m|[m [33mb20e6a9[m Zmieniono logikę pętli 'if' w 31. linijce.
+[31m|[m * [34m|[m [1;34m|[m [33meec7c52[m Dodano plik minigra.py z grą w zgadywanie liczby.
+[31m|[m [34m|[m[34m/[m [1;34m/[m  
+[31m|[m * [1;34m|[m [33mbd7dda4[m Dodanie pliku testowego oraz załączenie go w pliku .gitignore
+* [34m|[m [1;34m|[m [33m1d8c856[m Merge pull request #3 from R4dekC/Nowy_branch
+[1;34m|[m[34m\[m[34m|[m [1;34m|[m 
+[1;34m|[m [34m|[m[1;34m/[m  
+[1;34m|[m[1;34m/[m[34m|[m   
+[1;34m|[m * [33m7091db1[m Revert "Dodano opis działania programu multiplication_trainer.py"
+[1;34m|[m * [33mfa6bfbb[m Dodano wiadomość powitalną oraz instrukcję zamknięcia programu multiplication_trainer.py
+[1;34m|[m * [33mca4d8a6[m Dodano opis działania programu multiplication_trainer.py
+[1;34m|[m * [33m8a5b7ed[m Dodano opis działania programu password_generator.py
+[1;34m|[m * [33me719e7d[m Dodano plik multiplication_trainer.py oraz password_generator.py
+[1;34m|[m * [33m4f66aa7[m Dodano plik README.md z imieniem, numerem albumu oraz numerem grupy.
+* [36m|[m   [33m84def85[m Merge pull request #1 from pbobinsk/master
+[36m|[m[1;32m\[m [36m\[m  
+[36m|[m [1;32m|[m[36m/[m  
+[36m|[m[36m/[m[1;32m|[m   
+[36m|[m * [33m2398119[m Create testPBo.txt
+[36m|[m[36m/[m  
+* [33m8f03610[m Update README.md
+* [33mdd25f1b[m Initial commit
