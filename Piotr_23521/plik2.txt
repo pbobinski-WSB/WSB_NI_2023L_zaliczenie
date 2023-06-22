@@ -1,0 +1,2 @@
+Nowy plik w branch PiotrK_branch_2
+To jest kolejny wiersz w pliku plik2.txt
