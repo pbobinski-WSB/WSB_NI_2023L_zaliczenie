@@ -1,0 +1,1 @@
+print("Nie lubię takich zadań")
