@@ -1,5 +1,6 @@
-package com.app.model;
+package app.model;
 
+import app.utils.Utilities;
 import jakarta.validation.constraints.AssertTrue;
 import jakarta.validation.constraints.Max;
 import jakarta.validation.constraints.Min;
@@ -14,11 +15,11 @@ public class Person{
     private String name;
     private int phoneNumber;
     @Size(min=11,max=11, message="Pesel must be 11 characters long")
-    private int pesel;
-    private int address;
+    private String pesel;
+    private String address;
     private int age;
 
-    public Person(String name, int phoneNumber, int pesel, int address, int age){
+    public Person(String name, int phoneNumber,String pesel, String address, int age){
         this.name = name;
         this.phoneNumber = phoneNumber;
         this.pesel = pesel;
@@ -30,5 +31,7 @@ public class Person{
         return name;
     }
 
-
+    public int getDateOfBirth(){
+        return Utilities.getDateOfBirth(this.age, 2023);
+    }
 }
