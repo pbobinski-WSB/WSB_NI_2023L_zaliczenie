@@ -1,3 +1,5 @@
+wynik_spotkania = "1:0"  # Wynik spotkania Chelsea vs Manchester City
+
 sklad_chelsea = [
     ["Numer", "Zawodnik", "Pozycja"],
     ["16", "Edouard Mendy", "Bramkarz"],
@@ -27,6 +29,7 @@ sklad_manchester_city = [
     ["26", "Riyad Mahrez", "Napastnik"],
     ["7", "Raheem Sterling", "Napastnik"]
 
+print("Wynik spotkania: Chelsea {} Manchester City".format(wynik_spotkania))
 # Wypisanie składu Chelsea
 print("Skład Chelsea:")
 for pozycja in sklad_chelsea:
