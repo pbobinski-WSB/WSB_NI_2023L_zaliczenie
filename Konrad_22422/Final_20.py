@@ -27,6 +27,12 @@ sklad_psg = [
     ["10", "Neymar", "Napastnik"],
     ["9", "Mauro Icardi", "Napastnik"]
 
+wynik_meczu = "Bayern Monachium 1 - 0 PSG"
+
+# Wypisanie wyniku meczu
+print("Wynik meczu: {}".format(wynik_meczu))
+print("\n")
+
 # Wypisanie składu Bayernu Monachium
 for pozycja in sklad_bayernu:
     print("{:<5} {:<20} {:<10}".format(pozycja[0], pozycja[1], pozycja[2]))
