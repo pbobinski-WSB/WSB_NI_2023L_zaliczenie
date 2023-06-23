@@ -1,1 +1,2 @@
-print("Kod na zaliczenie")
+a=input("Wpisz nazwe pliku")
+print(a)
