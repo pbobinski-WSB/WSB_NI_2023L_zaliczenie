@@ -15,3 +15,4 @@ def prime(n: int) -> bool:
 def select_primes(x: list) -> list:
     return list(filter(prime, x))
 print(prime(100))
+print(select_primes([i for i in range(100)]))

@@ -1,6 +1,5 @@
 def determinant(matrix):
-#     print(matrix)
-#     print(len(matrix))
+#    wyliczanie wyznacznika macierzy
     if len(matrix) == 1:
         print('ret')
         return matrix[0][0]
