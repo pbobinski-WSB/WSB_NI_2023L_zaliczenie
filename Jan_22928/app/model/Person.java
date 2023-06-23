@@ -9,7 +9,9 @@ import jakarta.validation.constraints.Size;
 import jakarta.validation.constraints.Email;
 
 
-
+/**
+ * Klasa osoba
+ */
 public class Person{
     @NotNull(message = "Name cannot be null")
     private String name;
@@ -27,10 +29,18 @@ public class Person{
         this.age = age;
     }
 
+    /**
+     * Getter imienia osoby
+     * @return imie
+     */
     public String getName(){
         return name;
     }
 
+    /**
+     * metoda liczy rok urodzenia na podstawie wieku
+     * @return rok urodzenia
+     */
     public int getDateOfBirth(){
         return Utilities.getDateOfBirth(this.age, 2023);
     }

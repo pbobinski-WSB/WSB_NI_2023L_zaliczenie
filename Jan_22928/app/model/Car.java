@@ -1,4 +1,4 @@
-package com.app.model;
+package app.model;
 
 public class Car {
     private Person owner;
@@ -11,10 +11,18 @@ public class Car {
         this.model = model;
     }
 
+    /**
+     * Metoda zwraca właściciela pojazdu
+     * @return właściciel pojazdu
+     */
     public Person getOwner(){
         return this.owner;
     }
 
+    /**
+     * Metoda zwraca sformatowana nazwe i model pojazdu 
+     * @return połączenie marki i modelu przykład: "Volkswagen Passat"
+     */
     public String getMakeAndModel(){
         return this.make+" "+this.model;
     }
