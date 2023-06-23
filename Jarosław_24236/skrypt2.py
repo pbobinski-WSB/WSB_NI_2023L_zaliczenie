@@ -1,1 +1,1 @@
-print("Jednak lubię takie zadania")
+print("Nie lubię takich zadań")
