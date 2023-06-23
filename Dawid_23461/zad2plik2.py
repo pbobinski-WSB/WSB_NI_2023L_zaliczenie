@@ -12,4 +12,4 @@ def determinant(matrix):
         result += sign * matrix[0][i] * determinant([j[:i] + j[i+1:] for j in matrix[1:]])
     return result
 
-determinant([ [1, 3], [2,5]])
+determinant([ [2, 3], [4,5]])

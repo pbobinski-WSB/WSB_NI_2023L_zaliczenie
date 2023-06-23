@@ -14,3 +14,4 @@ def prime(n: int) -> bool:
 
 def select_primes(x: list) -> list:
     return list(filter(prime, x))
+print(prime(100))

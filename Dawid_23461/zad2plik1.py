@@ -1,4 +1,4 @@
-a = 0
+a = 2
 b = 1
 for i in range(20):
     if i > 1:
