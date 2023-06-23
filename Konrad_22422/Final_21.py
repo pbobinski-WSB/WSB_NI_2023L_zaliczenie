@@ -13,9 +13,28 @@ sklad_chelsea = [
     ["10", "Kai Havertz", "Napastnik"]
 ]
 
+sklad_manchester_city = [
+    ["Numer", "Zawodnik", "Pozycja"],
+    ["31", "Ederson", "Bramkarz"],
+    ["2", "Kyle Walker", "Obrońca"],
+    ["3", "Ruben Dias", "Obrońca"],
+    ["14", "Aymeric Laporte", "Obrońca"],
+    ["22", "Benjamin Mendy", "Obrońca"],
+    ["16", "Rodri", "Pomocnik"],
+    ["17", "Kevin De Bruyne", "Pomocnik"],
+    ["8", "Ilkay Gündogan", "Pomocnik"],
+    ["20", "Bernardo Silva", "Pomocnik"],
+    ["26", "Riyad Mahrez", "Napastnik"],
+    ["7", "Raheem Sterling", "Napastnik"]
+
 # Wypisanie składu Chelsea
 print("Skład Chelsea:")
 for pozycja in sklad_chelsea:
     print("{:<5} {:<20} {:<10}".format(pozycja[0], pozycja[1], pozycja[2]))
-	
+
+# Wypisanie składu Manchesteru City
+for pozycja in sklad_manchester_city:
+    print("{:<5} {:<20} {:<10}".format(pozycja[0], pozycja[1], pozycja[2]))
+
+
 print()
