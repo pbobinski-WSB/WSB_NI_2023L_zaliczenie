@@ -1,2 +1,2 @@
-a=input("Wpisz nazwe pliku")
-print(a)
+b=input("Wpisz nazwe pliku")
+print(b)
