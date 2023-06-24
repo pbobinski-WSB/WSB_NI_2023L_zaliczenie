@@ -1,1 +1,2 @@
+<<<<<<< HEAD
 Testowanie galezi plik test1
