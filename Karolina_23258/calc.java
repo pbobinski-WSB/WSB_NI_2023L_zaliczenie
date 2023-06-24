@@ -10,8 +10,11 @@ public class calc {
         System.out.print("Podaj drugą liczbę: ");
         int liczba2 = scanner.nextInt();
 
-        int suma = liczba1 + liczba2;
+        System.out.print("Podaj trzecią liczbę: ");
+        int liczba3 = scanner.nextInt();
 
-        System.out.println("Suma liczb " + liczba1 + " i " + liczba2 + " wynosi: " + suma);
+        int suma = liczba1 + liczba2 + liczba3;
+
+        System.out.println("Suma liczb " + liczba1 + ", " + liczba2 + " i " + liczba3 + " wynosi: " + suma);
     }
 }
