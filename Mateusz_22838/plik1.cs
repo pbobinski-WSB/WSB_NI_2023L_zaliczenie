@@ -4,7 +4,7 @@ namespace plik1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine("Czeœc jestem plik1");
         }
     }
 }
