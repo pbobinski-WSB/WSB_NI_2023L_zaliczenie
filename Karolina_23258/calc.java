@@ -18,5 +18,11 @@ public class calc {
 
         System.out.println("Suma liczb " + liczba1 + ", " + liczba2 + " i " + liczba3 + " wynosi: " + suma);
         System.out.println("Średnia liczb " + liczba1 + ", " + liczba2 + " i " + liczba3 + " wynosi: " + srednia);
+
+        if (suma % 2 == 0) {
+            System.out.println("Suma liczb jest parzysta.");
+        } else {
+            System.out.println("Suma liczb jest nieparzysta.");
+        }
     }
 }
