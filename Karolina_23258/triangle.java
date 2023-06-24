@@ -15,7 +15,16 @@ public class triangle {
 
         double obwod = a + b + c;
 
+        System.out.println("Długości boków trójkąta: a = " + a + ", b = " + b + ", c = " + c);
         System.out.println("Obwód trójkąta: " + obwod);
+
+        if (a == b && b == c) {
+            System.out.println("Trójkąt jest równoboczny.");
+        } else if (a == b || a == c || b == c) {
+            System.out.println("Trójkąt jest równoramienny.");
+        } else {
+            System.out.println("Trójkąt jest różnoboczny.");
+        }
 
         scanner.close();
     }
