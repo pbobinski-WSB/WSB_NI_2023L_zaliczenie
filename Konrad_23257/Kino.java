@@ -14,7 +14,7 @@ public class Kino {
         if (wiek < dzieci) {
             System.out.println("Zapraszamy na film dziecięciecy ");
             if (wiek < nastolatki) {
-            } else if (wiek > 20) {
+            } else if (wiek > 19) {
                 System.out.println("Nie możesz wejść na film jesteś za młody");
                 if (wiek < nastolatki) {
                     System.out.println("Zapraszamy na film nastolatku");
