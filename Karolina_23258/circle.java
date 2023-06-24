@@ -1,3 +1,4 @@
+import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class circle {
@@ -13,8 +14,10 @@ public class circle {
         double obwod = 2 * Math.PI * r;
         double pole = Math.PI * Math.pow(r, 2);
 
-        System.out.println("Obwód koła: " + obwod);
-        System.out.println("Pole koła: " + pole);
+        DecimalFormat df = new DecimalFormat("#.##");
+
+        System.out.println("Obwód koła: " + df.format(obwod));
+        System.out.println("Pole koła: " + df.format(pole));
 
         scanner.close();
     }
