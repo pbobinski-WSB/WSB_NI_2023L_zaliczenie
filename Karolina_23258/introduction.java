@@ -1,11 +1,11 @@
 public class introduction {
     public static void main(String[] args) {
-        String message = createMessage("John");
+        String message = createMessage("Belmondo");
         printMessage(message);
     }
 
     public static String createMessage(String name) {
-        return "Hello, " + name + "!";
+        return "Dzień dobry " + name + "!";
     }
 
     public static void printMessage(String message) {
