@@ -14,7 +14,9 @@ public class calc {
         int liczba3 = scanner.nextInt();
 
         int suma = liczba1 + liczba2 + liczba3;
+        double srednia = (double) suma / 3;
 
         System.out.println("Suma liczb " + liczba1 + ", " + liczba2 + " i " + liczba3 + " wynosi: " + suma);
+        System.out.println("Średnia liczb " + liczba1 + ", " + liczba2 + " i " + liczba3 + " wynosi: " + srednia);
     }
 }
