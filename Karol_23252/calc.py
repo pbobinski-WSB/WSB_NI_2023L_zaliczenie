@@ -14,7 +14,7 @@ def podziel(a, b):
         return a / b
 
 while True:
-    print("\nKalkulator")
+    print("\nProsty Kalkulator")
     print("1. Dodaj")
     print("2. Odejmij")
     print("3. Pomnoż")
