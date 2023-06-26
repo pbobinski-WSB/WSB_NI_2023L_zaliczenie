@@ -9,7 +9,7 @@ def pomnoz(a, b):
 
 def podziel(a, b):
     if b == 0:
-        return "Błąd! Nie można dzielić przez zero."
+        return "ERROR! Nie można dzielić przez zero."
     else:
         return a / b
 
