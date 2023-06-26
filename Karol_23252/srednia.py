@@ -1,7 +1,7 @@
 def oblicz_srednia(lista_liczb):
     return sum(lista_liczb) / len(lista_liczb)
 
-ilosc_liczb = int(input("Podaj ilość liczb, które chcesz wprowadzić? "))
+ilosc_liczb = int(input("Podaj ile liczb wprowadzasz? "))
 liczby = []
 
 for i in range(ilosc_liczb):
